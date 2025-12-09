@@ -44,10 +44,13 @@ const Contact = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-8 font-serif text-center">
               Contact
             </h1>
-            <p className="text-lg text-foreground/80 mb-12 text-center">
+            <p className="text-lg text-foreground/80 mb-6 text-center">
               The Collective Canvas is actively seeking local communities and knowledge sharers, 
               walking partners, and collaborators to help spread the reach of this story. 
               If you have any questions or would like to share your insight, send me a message here!
+            </p>
+            <p className="text-lg text-foreground/80 mb-12 text-center">
+              Or email directly at: <a href="mailto:mollyramonaart@gmail.com" className="text-primary hover:underline">mollyramonaart@gmail.com</a>
             </p>
             
             <Form {...form}>
